@@ -19,11 +19,14 @@ class Graph:
             if visited[i] == False: 
                 self.DFSUtil(i, visited) 
 
-    def DFS(self,v): 
-  
-        # Mark all the vertices as not visited 
-        visited = [False]*(len(self.graph)) 
-        self.DFSUtil(v,visited)
+    def DFS(self): 
+        V = len(self.graph)
+        
+        visited = [False]*(V)
+
+        for i in range(V):
+            if visited[i] == False:
+                self.DFSUtil(i,visited)
 
 g = Graph() 
 g.addEdge(0, 1) 
@@ -33,5 +36,6 @@ g.addEdge(2, 0)
 g.addEdge(2, 3) 
 g.addEdge(3, 3) 
   
-print ("Following is DFS from (starting from vertex 2)")
-g.DFS(3)
+print ("Following is DFS from -- for all the unconnected vertex of the graph    ")
+g.DFS()
+print(g.graph.values())
