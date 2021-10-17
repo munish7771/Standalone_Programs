@@ -1,3 +1,8 @@
+# Dijkstra's algorithm is an algorithm which finds the shortest paths between nodes in a graph.
+# It is one of the most well known short path algorithms because of it's efficiency and simplicity.
+#The concept works on undirected, weighted and connected graphs.
+
+
 from queue import PriorityQueue
 
 
