@@ -1,0 +1,9 @@
+Read contents of the csv file -- mock_data.csv
+
+BASIC
+
+1. Create a list of ids whose corresponding first_name starts with either 'A' or 'S'
+2. Create a dictionary containing the key = 'id' and value = 'first_name' of all the Females.
+3. Create a tuple containing all the ids having numbers [7,8,9] in ip_address
+4. Create a set out of all the keys of dictionary created in step 2
+5. Create a function that takes in parameter from step 4, returns a list containing ip_address of corresponding ids.
