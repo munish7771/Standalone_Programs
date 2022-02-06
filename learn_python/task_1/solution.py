@@ -1,4 +1,7 @@
-file = open("mock_data.csv", "r")
+try:
+    file = open("mock_data.csv", "r")
+except:
+    print ("An error occurred")
 ids = []
 thisdict = {}
 ip = ()
