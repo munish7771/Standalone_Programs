@@ -31,3 +31,4 @@ print("Dictionary containing the key = 'id' and value = 'first_name' of all the 
 print("Tuple containing all the ids having numbers [7,8,9] in ip_address ->\r\n",  ip) # Create a tuple containing all the ids having numbers [7,8,9] in ip_address
 print("Set of all the keys of dictionary created in step 2 ->\r\n",  s) # 4. Create a set out of all the keys of dictionary created in step 2
 print("List containing ip_address of corresponding ids when called through a function ->\r\n",  x) # 5.Create a function that takes in parameter from step 4, returns a list containing ip_address of corresponding ids.
+file.close()
