@@ -1,0 +1,24 @@
+This tasks requires prior knowledge of restful apis, json data format, LLD, OOPS
+
+Problem statement - 
+Come up with a solution that you can run everyday and it collects the following data and writes to a csv file.
+1. Get the top 100 songs that are listed in spotify everyday.
+2. Get the top 10 songs from top 10 popular playlists.  
+3. Get the top 10 songs having maximum "duration" from the step 1.
+(results from 1,2,3 need to be written to a file)
+4. Create a cli application having following apis
+    a. top (songs, playlists, podcasts) filter by artist, genre
+    b. compare (playlist1, playlist2) -- basically able to tell how many songs are similar
+    
+ADVANCED - 
+Create a cli application that reads all songs in user's "Liked songs" and creates specific playlists for them depending on the song type,mood.
+
+
+
+
+
+launcher.py - your entry point for cli application.
+service.py - every business logic should be implemented here.
+auth.py - authentication
+
+launcher should be able to use methods/classes from auth and service

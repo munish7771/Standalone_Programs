@@ -7,3 +7,10 @@ BASIC
 3. Create a tuple containing all the ids having numbers [7,8,9] in ip_address
 4. Create a set out of all the keys of dictionary created in step 2
 5. Create a function that takes in parameter from step 4, returns a list containing ip_address of corresponding ids.
+
+HARD
+
+1. Write a sorting function that takes input as result from basic task 5, sorts the result based on element%10 in descending order. (ignore all other characters except numbers)
+    eg-> you have ip address as 10.192.168.92, "." was ignored so the element is 1019216892, elem%10 = 2.
+    Also take care of worst case time complexity of your solution.
+2. Write all above results in a file.
